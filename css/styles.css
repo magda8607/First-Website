@@ -1,0 +1,173 @@
+.header{
+    color: red;
+    
+}
+.background{
+    background-image: url('../images/owls eye.jpg');
+    width: 500px;
+    height: 500px;
+}
+
+.body{
+    margin:0;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.main-nav{
+    background-color: #A9A9A9;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 60px;
+    
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+}
+
+.nav-item{
+    float: left;
+    margin-left: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color:#fff;
+    
+}
+
+.nav-link:hover{
+    color: green;
+}
+ 
+ .active{
+     color: yellow;
+ }
+ 
+ /***************Hero Style*******/
+.hero-background{
+     background-image: url('../images/owls eye.jpg');
+     height: 500px;
+ }   
+    
+.hero-text{
+    margin-top: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+
+section{
+    height: 550px;
+    
+}
+
+.column{
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    width:30%;
+    text-align: center;
+    border: 2px dashed black;
+    height: 500px;
+    background-color: green;
+    font-family: 'Tangerine', cursive;
+}
+
+.column-img{
+    height: 150;
+}
+
+
+
+.button{
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  display: inline-block;
+}
+    
+}
+/********Footer Styles*********************/
+footer{
+    border-top: 2px solid black;
+    background-color:pink;
+    height: 500px;
+    text-align:center;
+}
+
+.social-links > .fa{
+    color:blue;
+    font-size: 36px;
+}
+
+.social-links > .fa:hover{
+    color:#fff;
+    
+}
+
+
+/************************ About Styles *******/
+
+
+.iframe-container > iframe {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.about-container {
+    height: 400px;
+    
+}
+.about--column{
+    width:40%;
+    float: left;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.bio--header{
+    margin-top: 50px;
+}
+
+.mainphoto{
+    height:100px;
+}
+
+.obamaphoto{
+    height:100px;
+}
+
+.arrambulaphoto{
+    height:100px;
+}
+
+/*************************Contact Styles*****/
+.contact--button{
+    background-color: pink
+    border-radius: 8px;
+    padding: 5px; 10px;
+    border-style: none;
+}
+.link--text{
+    color:#fff;
+    text-decoration: none;
+}
+
+.link-text: hover{
+    color: red;
+}
