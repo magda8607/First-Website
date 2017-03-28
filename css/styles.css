@@ -59,7 +59,7 @@
  
  /***************Hero Style*******/
 .hero-background{
-     background-image: url('../images/owls eye.jpg');
+     background-image: url('../images/book of life logo2.jpg');
      height: 500px;
  }   
     
@@ -130,12 +130,13 @@ footer{
 }
 
 .about-container {
-    height: 400px;
-    
+    height: 500px;
+    padding-top: 60px;
 }
 .about--column{
-    width:40%;
+    width: 50%;
     float: left;
+    height: 400px;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
 }
@@ -144,8 +145,14 @@ footer{
     margin-top: 50px;
 }
 
+.about--video {
+    height:250px;
+    width: 50%;
+    float:right;
+}
+
 .mainphoto{
-    height:100px;
+    height:150px;
 }
 
 .obamaphoto{
@@ -156,11 +163,14 @@ footer{
     height:100px;
 }
 
+
+
+
 /*************************Contact Styles*****/
 .contact--button{
-    background-color: pink
+    background-color: pink;
     border-radius: 8px;
-    padding: 5px; 10px;
+    padding: 5px 10px;
     border-style: none;
 }
 .link--text{
@@ -170,4 +180,32 @@ footer{
 
 .link-text: hover{
     color: red;
+}
+
+.contact--header{
+    margin-top: 5px;
+    
+}
+.contact--information{
+    text-align: center;
+    background:pink;
+}
+
+.contact--form{
+    width: 50%;
+    margin-left:35%;
+    margin-top:15px;
+}
+
+/*************************END Contact Styles*****/
+
+/*************************START About2 Styles*****/
+
+.html { 
+  background: url(img_flower.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+.body { 
+  color: white; 
 }
